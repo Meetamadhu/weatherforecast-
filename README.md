@@ -10,4 +10,5 @@ Observations:
 •	Error Handling: Includes error messages for API fetch failures.
 •	Animations: Adds a delay for forecast cards for a better user experience.
 •	Reusability: Functions like fetchWeather, fetchForecast, and fetchLocalTime are modular and reusable.
-
+I have added ascreenshot of the template
+API Keys are hidden...use your own API key
