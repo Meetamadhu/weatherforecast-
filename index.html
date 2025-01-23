@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">EuroEye: Real-Time Forecast</div>
+        <div class="search-bar">
+            <select id="city-dropdown">
+                <option value="">Select City</option>
+            </select>
+            <button onclick="searchWeather()">Search</button>
+        </div>
+    </div>
+    <div class="content">
+        <h6>"Your 5-Day Weather Forecast for Europe"
+        </h6>
+        <div class="weather-info">
+            <!-- Current Weather Info will be displayed here -->
+        </div>
+    </div>
+    
+    <div class="info-section">
+        <div class="forecast-box"> 
+            <h4>Forecast for Next Five Days</h4>
+            <div class="forecast-grid">
+                
+                
+            </div>
+        </div>
+        <div class="map-box">
+            
+
+            <div id="map"></div>
+        </div>
+        
+    </div>
+    <div id="particles-js-1"></div>
+    <div id="particles-js-2"></div>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
